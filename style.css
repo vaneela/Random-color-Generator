@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+#Heading{
+    text-align: center;
+    font-size: 60px;
+}
+#Color{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    padding-top: 20px;
+    border-radius: 1em;
+}
+#Color p{
+    border-radius: 1em;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    display: block;
+    margin: 30px auto;
+    
+}
+.btn{
+    margin-top: 20px ;
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(230, 170, 215);
+    border-radius: 9px;
+   
+}
+.button{
+     text-align: center;
+}
