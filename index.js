@@ -1,3 +1,5 @@
+let audioTurn = new Audio("bing.mpeg");
+
 document.getElementById("button-1").onclick = function () {
     let r, g, b, appleColor;
     r = Math.round(Math.random() * 256);
@@ -8,10 +10,12 @@ document.getElementById("button-1").onclick = function () {
     = appleColor;
     document.getElementById("color-text").innerHTML=
     appleColor;
+    audioTurn.play();
 
 }
 document.getElementById("button-2").onclick = 
 function(){
+    audioTurn.play();
     let color="white";
     document.getElementById("Color").style.backgroundColor
     =color;
