@@ -1,9 +1,18 @@
 body{
-    background-color: gray;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 #Heading{
     text-align: center;
     font-size: 60px;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
 }
 #Color{
     background-color: white;
@@ -12,6 +21,7 @@ body{
     margin: 10px auto;
     padding-top: 20px;
     border-radius: 1em;
+    box-shadow: 10px 10px 8px #181717;
 }
 #Color p{
     border-radius: 1em;
@@ -22,8 +32,7 @@ body{
     padding: 15px;
     border: 1px solid black;
     display: block;
-    margin: 30px auto;
-    
+    margin: 30px auto;   
 }
 .btn{
     margin-top: 20px ;
@@ -31,8 +40,20 @@ body{
     font-size: 22px;
     background-color: rgb(230, 170, 215);
     border-radius: 9px;
-   
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 10px 10px 8px #181717;
+
+}
+#button-2{
+    background-color: bisque;
 }
 .button{
      text-align: center;
+     
+}
+
+.btn:hover{
+    background-color: yellow; 
+    font-size: 25px;
 }
