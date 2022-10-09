@@ -5,7 +5,8 @@ body{
 #Heading{
     text-align: center;
     font-size: 60px;
-    color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
     display: flex;
