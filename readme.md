@@ -1,7 +1,5 @@
 This is a JS project.
 
-Do change it's background.
-
 Steps to make PR:
 
   i. Fork the repository.
