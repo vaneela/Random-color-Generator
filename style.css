@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: 150px;
 }
 
 .progress-bar.active {
@@ -46,7 +46,7 @@ body{
     border-radius: 1em;
     box-shadow: 10px 10px 8px #181717;
 }
-#color-text{
+#Color p{
     border-radius: 1em;
     text-align: center;
     font-size: 23px;
@@ -79,23 +79,4 @@ body{
 .btn:hover{
     background-color: yellow; 
     font-size: 25px;
-}
-
-@media (max-height:638px )  {
- 
-    #Heading{
-        font-size: 30px;
-    }
-    #Color{
-        height: 150px;
-        width: 150px;
-        margin: 5px auto;
-        padding-top: 10px;
-        border-radius: 1em;
-    }
-    #color-text{
-        width: 95px;
-        padding: 7.5px;
-        margin: 15px auto;
-    }
 }
