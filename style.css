@@ -15,6 +15,28 @@ body{
     flex-direction: column;
     margin-top: 0px;
 }
+
+.progress-bar.active {
+    background-color: #fff;
+    height: 4px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 24%;
+    animation: grow 7s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+}
+
+#button-3 {
+    background-color: bisque;
+    margin-right: 25px;
+}
+
 #Color{
     background-color: white;
     height: 300px;
