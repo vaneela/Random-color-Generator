@@ -13,6 +13,10 @@ body {
   display: block;
 }
 
+h1 {
+  text-align: center;
+}
+
 .dashboard {
   margin-top: 200px;
   margin-left: 200px;
